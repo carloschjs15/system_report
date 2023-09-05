@@ -1,0 +1,201 @@
+body#fundo_login{
+	margin: 0;
+	padding: 0;
+	background: url('img/f.jpg') no-repeat;
+	webkit-background-size: cover;
+	background-size: cover;
+	font-family: Tahoma, sans-serif;
+}
+
+/* Tela Login */
+.form-area{
+	color: white;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 400px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.5);
+	padding: 40px;
+}
+
+.form-area h2{
+	border-bottom: 1px solid gray;
+	font-weight: bold;
+}
+
+.form-area p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: white;
+}
+
+.form-area input{
+	margin-bottom: 20px;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	display: 16px;
+}
+
+.form-area input ::placeholder{
+	color: white;
+}
+
+.form-area input[type=submit]{
+	border: none;
+	height: 40px;
+	outline: none;
+	color: white;
+	font-size: 15px;
+	background-color: deepskyblue;
+	cursor:pointer;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.form-area input[type=submit]:hover{
+	background-color: dodgerblue;
+	transition: 1s;
+}
+
+@media (min-width: 267px) and (max-width: 1000px){
+	body#fundo_login{
+		position: relative;
+		margin: 0;
+		padding: 0;
+		background: url('img/f.jpg') repeat;
+		webkit-background-size: cover;
+		background-size: cover;
+		font-family: Tahoma, sans-serif;
+	}
+
+	.form-area{
+		color: white;
+		position:absolute;
+		transform: translate(-50%,50%);
+		width: 100%;
+		font-size:60px;
+		height: 900px;
+		box-sizing: border-box;
+		background: rgba(0,0,0,0.5);
+		padding: 40px;
+	}
+
+	.form-area input[type=submit], .form-area input[type=text], .form-area input[type=password]{
+		font-size: 60px;
+		height: 100px;
+	}
+}
+
+
+/* Tela home.php */
+#input_servico{
+	width: 100%;
+	resize: horizontal;
+}
+
+#obs{
+	margin: 10px 0 10px 0;
+	width: 100%;
+}
+
+#form_add{
+	width: 100%;
+}
+
+#form_add input[type=submit]{
+	display: block;
+	border: none;
+	height: 40px;
+	outline: none;
+	color: white;
+	font-size: 15px;
+	background-color: deepskyblue;
+	cursor:pointer;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+#form_add input[type=submit]:hover{
+	background-color: dodgerblue;
+	transition: 1s;
+}
+
+#fecha_servicos{
+	color: rgba(0,0,0,0.8);	
+	width: 100%;
+}
+
+#fecha_servicos li{
+	margin: 10px 0 10px 0;
+	width: 100%;
+	font-size: 30px;
+	transition: 1s;
+}
+
+#fecha_servicos li:hover{
+	color: tomato;
+	cursor: pointer;
+	transition: 1s;
+}
+
+#divedicao div.resume-item{
+	cursor: pointer;
+	padding: 10px;
+	transition: 1s;
+}
+
+#divedicao div.resume-item:hover{
+	color: white;
+	background-color: black;
+	transition: 1s;
+}
+
+#divedicao div.resume-item button{
+	border: 1px solid black;
+	transition: 1s;
+}
+
+#divedicao div.resume-item button:hover{
+	background-color:white;
+	color: black;
+	transition: 1s;
+}
+
+.button_rel{
+	border: none;
+	height: 40px;
+	outline: none;
+	color: white;
+	font-size: 15px;
+	background-color: deepskyblue;
+	cursor:pointer;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.button_rel:hover{
+	background-color: dodgerblue;
+	transition: 1s;
+}
+
+#janela_tabela{
+  padding: 15px !important;
+}
+
+#janela_tabela table tbody tr{
+  padding: 5px;
+  border: 0.5px solid rgba(0,0,0,0.1);
+}
+
+#janela_tabela table tbody tr td{
+  padding:5px;
+}
